@@ -46,6 +46,8 @@ Project Properties > Java Build Path > Add the jar file
 ```java
 package yourname.yourplugin;
 
+import me.yourpaljake.permissioninjector.Injector;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
